@@ -13,8 +13,9 @@ Example usage:
 
 ##Class provides the following methods:
  timer_widget.start_timer()
- timer_widget.stop_timer()
- timer_widget.reset_timer()
+ timer_widget.stop()
+ timer_widget.reset()
+ timer_widget.start_countdown(120)
  ##'update_widget' updates the StringVar used by the widget, normally this
  ## gets called automatically.
  timer_widget.update_widget()
